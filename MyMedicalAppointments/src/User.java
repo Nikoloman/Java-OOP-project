@@ -54,4 +54,10 @@ public class User {
             System.out.println("You should enter a phone number with 8 digits");
         }
     }
+
+    @Override
+    public String toString() {
+        return "User: " + name + ", Email: " + email +
+                "\nAddress: " + address + ", Phone Number: " + phoneNumber;
+    }
 }
