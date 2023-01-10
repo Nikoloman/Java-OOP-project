@@ -13,5 +13,9 @@ public class Main {
         Doctor doctorMax = new Doctor();
 
         Patient patient = new Patient("Michel Ortiz", "someEmail@gmail.com");
+        patient.setWeight(59.5);
+        System.out.println(patient.getWeight());
+
+        patient.setPhoneNumber("112233444");
     }
 }
