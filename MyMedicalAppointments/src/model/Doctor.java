@@ -1,7 +1,9 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Doctor extends User{
+public class Doctor extends User {
     //Properties
     String speciality;
 
@@ -11,7 +13,7 @@ public class Doctor extends User{
      *
      * @param name The name of the doctor
      */
-    Doctor(String name, String email){
+    public Doctor(String name, String email){
         super(name, email);
     }
 
