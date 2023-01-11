@@ -50,4 +50,10 @@ public class Patient extends User {
         return super.toString() + "\nAge: " + birthday + "\nWeight: " + weight +
                 "\nHeight: " + height + "\nBlood type: " + blood;
     }
+
+    @Override
+    public void showDataUser() {
+        System.out.println("Patient");
+        System.out.println("History of the patient");
+    }
 }
